@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nlp-engineer-assignment"
+description = ""
+version = "1.0.0"
+authors = ["Your Name <name@domain.com>"]
+
+[tool.poetry.dependencies]
+fastapi = "~0.104"
+numpy = "~1.26"
+python = "~3.10"
+torch = "~1.12"
+uvicorn = "~0.23"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "~2.0"
+flake8 = "~6.1"
+pytest = "~7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
